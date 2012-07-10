@@ -1,7 +1,13 @@
 12-07-10
 ========
-
-
+```{r echo=FALSE}
+#define vars
+increment <- function(x) {
+  eval.parent(substitute(x <- x + 1)) 
+  return(x)
+  } 
+count <- 0
+```
 
 
 Bioconductor packages
@@ -9,7 +15,7 @@ Bioconductor packages
 ### DiffBind
   * Differential analysis of peak lists. Makes use of EdgeR to model the data via a negative binomial distribution demonstrated to control the Type I error better then standard poisson derived tests. 
 
-`1` http://www.bioconductor.org/packages/release/bioc/html/DiffBind.html
+`r increment(count)` http://www.bioconductor.org/packages/release/bioc/html/DiffBind.html
 
 ### BayesPeak
   * Peak-calling algorithm using Bayesian statistical techniques
@@ -17,8 +23,8 @@ Bioconductor packages
   * Models read counts in a window via a negative binomial distribution, which is better in handling overdispersed data as compared to poisson distributions
   * Monte Carlo based sampling of model parameters from the full dataset instead of pre-defined parameters 
 
-`2` http://www.biomedcentral.com/content/pdf/1471-2105-10-299.pdf
-`3` http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042177/pdf/btq685.pdf
+`r increment(count)` http://www.biomedcentral.com/content/pdf/1471-2105-10-299.pdf
+`r increment(count)` http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3042177/pdf/btq685.pdf
 
 ### ChipPeakAnno
   * Batch annotation of the peaks identified from either ChIP-seq, ChIP-chip experiments or any experiments resulted in large number of chromosome ranges
