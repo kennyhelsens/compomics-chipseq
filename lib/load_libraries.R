@@ -1,9 +1,11 @@
 source("http://bioconductor.org/biocLite.R")
-biocLite("DiffBind")
+# biocLite("DiffBind")
+# biocLite("BayesPeak")
+biocLite("Rsamtools")
 
-
-biocLite("BayesPeak")
-
+library("DiffBind")
 library("BayesPeak")
-
 library("multicore")
+library("Rsamtools")
+
+asBam()

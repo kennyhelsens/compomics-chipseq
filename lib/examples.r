@@ -1,4 +1,16 @@
 # DiffBind examples
+tamoxifen = dba(sampleSheet="data/chipseq_sampelsheet.csv")
+warnings()
+tamoxifen$masks$CON
+read.csv("data/chipseq_sampelsheet.csv")
+getwd()
+#Create a DBA object with a subset of samples
+data(tamoxifen_peaks)
+control = dba(tamoxifen)
+Responsive
+setwd()
+
+
 data(tamoxifen_peaks)
 tamoxifen
 

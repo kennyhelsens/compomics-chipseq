@@ -1,10 +1,6 @@
-a <- c("A","B","C","D")
-b <- rnorm(4)
-c <- rnorm(4)
-d <- rnorm(4)
+# Load macs files as dba object
+macs = dba(sampleSheet="data/chipseq_sampelsheet.csv")
 
-data <- data.frame(a,b,c,d)
-
-e <- apply(data[,2:NCOL(data)], MARGIN=1, mean)
-
-data <- data.frame(data, e)
+dba.dex <- dba(macs, macs$masks$DEX)
+dba.contrast(DBA=macs, categories=DBA_TREATMENT)
+dba.plotBox(macs, macs$)
