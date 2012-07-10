@@ -1,0 +1,16 @@
+{
+    "contents" : "# boot the environment\n\nsource()",
+    "created" : 1341903573177.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2322871275",
+    "id" : "457A33CD",
+    "lastKnownWriteTime" : 1341903594,
+    "path" : "E:/projects/r/compomics-chipseq/lib/boot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "",
+    "created" : 1341903656350.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "83BA30C3",
+    "lastKnownWriteTime" : 1341903664,
+    "path" : "E:/projects/r/compomics-chipseq/lib/prepare_data.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
