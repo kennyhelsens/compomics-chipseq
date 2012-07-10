@@ -1,0 +1,16 @@
+{
+    "contents" : "# boot the environment\n# getwd()\n\n# Load all libraries\nsource(\"./lib/load_libraries.R\")\n\n# Prepare data calls\nsource(\"./lib/prepare_data.R\")\n\n",
+    "created" : 1341914616647.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3030965996",
+    "id" : "99ACAEF6",
+    "lastKnownWriteTime" : 1341914505,
+    "path" : "E:/projects/r/compomics-chipseq/lib/boot.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

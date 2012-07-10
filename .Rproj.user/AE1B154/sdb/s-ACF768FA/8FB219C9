@@ -1,12 +1,12 @@
 {
-    "contents" : "",
+    "contents" : "source(\"http://bioconductor.org/biocLite.R\")\nbiocLite(\"DiffBind\")\n\n\nbiocLite(\"BayesPeak\")\n\nlibrary(\"BayesPeak\")\n\nlibrary(\"multicore\")",
     "created" : 1341903618856.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "2813968630",
     "id" : "8FB219C9",
-    "lastKnownWriteTime" : 1341903651,
+    "lastKnownWriteTime" : 1341923077,
     "path" : "E:/projects/r/compomics-chipseq/lib/load_libraries.R",
     "properties" : {
         "tempName" : "Untitled1"

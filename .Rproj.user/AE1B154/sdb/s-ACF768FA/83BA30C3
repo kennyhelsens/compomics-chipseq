@@ -1,12 +1,12 @@
 {
-    "contents" : "",
+    "contents" : "a <- c(\"A\",\"B\",\"C\",\"D\")\nb <- rnorm(4)\nc <- rnorm(4)\nd <- rnorm(4)\n\ndata <- data.frame(a,b,c,d)\n\ne <- apply(data[,2:NCOL(data)], MARGIN=1, mean)\n\ndata <- data.frame(data, e)",
     "created" : 1341903656350.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "0",
+    "hash" : "1958322105",
     "id" : "83BA30C3",
-    "lastKnownWriteTime" : 1341903664,
+    "lastKnownWriteTime" : 1341914505,
     "path" : "E:/projects/r/compomics-chipseq/lib/prepare_data.R",
     "properties" : {
         "tempName" : "Untitled1"

@@ -1,0 +1,16 @@
+{
+    "contents" : "# DiffBind examples\ndata(tamoxifen_peaks)\ntamoxifen\n\ndata(tamoxifen_counts)\nplot(tamoxifen)\n\ndata(tamoxifen_analysis)\ndba.plotMA(tamoxifen)\n\n# BayesPeak examples\ndir <- system.file(\"extdata\", package=\"BayesPeak\")\ntreatment <- file.path(dir, \"H3K4me3reduced.bed\")\ninput <- file.path(dir, \"Inputreduced.bed\")\n\n##look at specific region 92-95Mb on chromosome 16\n##(we've used half the number of iterations here to reduce the time this example takes)\nraw.output <- bayespeak(treatment, input, chr = \"chr16\", start = 9.2E7, end = 9.5E7, iterations = 5000L, use.multicore = TRUE) \noutput <- summarize.peaks(raw.output)\noutput\nplot.job(output, raw.output)\n\ninstall.packages('multicore')\n\n## Not run: \n##analyse all data in file\nraw.output.wg <- bayespeak(treatment, input, use.multicore = TRUE)\noutput <- summarize.peaks(raw.output.wg)\n\n## End(Not run)\n\n\ndir <- system.file(\"extdata\", package=\"BayesPeak\")\ntreatment <- file.path(dir, \"H3K4me3reduced.bed\")\nbed <- read.bed(treatment)\n\n##look at region chr16:91000000-94000000\nplot.bed(bed, \"chr16\", 9.1E7, 9.4E7)",
+    "created" : 1341916098709.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3164556013",
+    "id" : "145C39B1",
+    "lastKnownWriteTime" : 1341923960,
+    "path" : "E:/projects/r/compomics-chipseq/lib/examples.r",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}
