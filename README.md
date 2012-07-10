@@ -1,4 +1,7 @@
 compomics-chipseq
 =================
+**chipseq data analysis workbench for compomics projects**
 
-chipseq data analysis workbench for compomics projects
+
+
+
